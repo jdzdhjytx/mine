@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国书法</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background-image: url(../images/%E4%B8%BB%E9%A1%B5%E5%A3%81%E7%BA%B8aaa.png);
+  background-size: cover; /* 设置背景图片铺满整个页面 */
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 垂直布局 */
+  align-items: center; /* 垂直居中 */
+  text-align: center; /* 文本居中 */
+}
+h1 {
+  color: brown; /* 修改标题颜色为棕色 */
+  font-size: 72px; /* 修改标题字体大小为72号 */
+  margin-top: 100px; /* 往下移动标题 */
+}
+p {
+  text-align: justify;
+  color: black; /* 修改文字颜色为黑色 */
+  font-size: 40px; /* 修改文字字体大小为40号 */
+}
+.content {
+  display: flex; /* 使用flex布局 */
+  justify-content: space-between; /* 将段落和图片进行水平排列 */
+  align-items: center; /* 垂直居中 */
+  margin-top: 20px; /* 添加顶部间距 */
+}
+img {
+  max-width: 30%; /* 设置图片最大宽度为30% */
+  height: auto; /* 让图片高度自动适应宽度改变 */
+}
+a {
+  text-decoration: none; /* 去除超链接下划线 */
+  color: #333; /* 设置超链接颜色为灰色 */
+  font-weight: bold; /* 设置超链接文字为粗体 */
+  font-size: 24px; /* 设置超链接字体大小 */
+  padding: 20px 30px; /* 添加内边距 */
+  border: 2px solid #333; /* 添加边框 */
+  border-radius: 5px; /* 添加圆角边框 */
+  display: inline-block;
+  margin-top: 20px; /* 添加顶部间距 */
+}
+	a:hover {
+      color: white;
+      background-color: #333;
+    }
+nav {
+  background-color: transparent; /* 添加半透明背景色 */
+  text-align: center;
+  padding: 10px;
+  position: absolute; /* 设置为绝对定位 */
+  top: 0; /* 放置在页面顶部 */
+  width: 100%; /* 占据整个宽度 */
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 30px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+	    nav ul li a:hover {
+      color: white;
+      background-color: #333;
+    }
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="calligraphy.html">中国书法</a></li>
+    <li><a href="character.html">中国文学</a></li>
+    <li><a href="painting.html">中国绘画</a></li>
+    <li><a href="drama.html">中国戏剧</a></li>
+  </ul>
+</nav>
+<h1>中国书法</h1>
+<div class="content">
+  <p>书法是中华文化的重要组成部分，它集中国历史、文学、哲学、绘画等多种文化形态于一身，以博大精深的意境和文化特质为世人瞩目。 书法具有特殊的文化育人功能。 当下，书法教育不能单纯进行技法的锤炼和理论知识的传授，更应探究其文化育人功能，以提升艺术审美能力、文化修养、道德品质为书法教育的首要任务。 书法有利于文化自信。 书法不仅仅是写字，其深层所蕴含的是中国古人认知世界的一种极其睿智的方式，是中国文化的一个重要标志；书法不仅是中国文化的精髓，更体现了古代士人的文化信仰和价值坐标，学习书法有利于树立文化自信。</p>
+  <img src="../images/兰亭集序.jpg">
+</div>
+<a href="../index.html">返回主页</a>
+</body>
+</html>
